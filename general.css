@@ -1,7 +1,46 @@
 
 body{
     background-color: black;
+    
 }
 h1, h2, h3, h4, h5, h6, p, a {
+    font-family: "Lato";
     color: white;
+}
+
+h1 {
+    font-size: 8vw; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700;
+}
+h2{
+    font-size: 3.1vw; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 100;
+}
+h3{
+    font-size: 1.9vw; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 600;
+}
+p{
+    font-size: 1.9vw; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 100;
+}
+h6{
+    font-size: 1.4vw; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 600;
+}
+a{
+    font-size: 3.1vw; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 600;
 }
