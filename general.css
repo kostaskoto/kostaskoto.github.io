@@ -44,3 +44,8 @@ a{
     font-variant: normal; 
     font-weight: 600;
 }
+
+.homeImage{
+    height: auto;
+    width: 100%;
+}
