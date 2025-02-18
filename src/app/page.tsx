@@ -6,6 +6,14 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <h1 className={styles.title}>
+          Konstantinos Kotorenis
+        </h1>
+        <h2 className={styles.subtitle}>
+          or just kostaskoto
+        </h2>
+        <h3> Who Am I?</h3>
+        <p>Good question! I think I will never know the answer. What I know is that I express myself through photography, I love making graphic and UI/UX designs for other people and playing my harmonica from time to time.</p>
         <Link href="/aboutMe">About Me</Link>
         <Link href="/design">Design</Link>
         <Link href="/photography">Photography</Link>
