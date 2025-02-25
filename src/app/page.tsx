@@ -8,6 +8,9 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.profile}>
           <div className={styles.profileRelative}>
+            <h2 className={styles.subtitle}>
+              OR JUST KOSTASKOTO
+            </h2>
             <Image
               className={styles.profilePicture}
               src="https://kostaskoto.github.io/kostaskoto/images/kostaskotoProfile.jpg"
@@ -22,6 +25,11 @@ export default function Home() {
               <p>PHOTOGRAPHING SINCE 2014</p>
               <p>DESIGNING SINCE 2019</p>
             </div>
+            <div className={styles.aboutMe}>
+              <h3> WHO AM I?</h3>
+              <p>Good question! I think I will never know the answer. What I know is that I express myself through photography, I love making graphic and UI/UX designs for other people and playing my harmonica from time to time.</p>
+            </div>
+
           </div>
 
         </div>
@@ -33,17 +41,12 @@ export default function Home() {
             KOTORENIS
           </h1>
         </div>
-        <h2 className={styles.subtitle}>
-          OR JUST KOSTASKOTO
-        </h2>
-        <div>
-          <h3> Who Am I?</h3>
-          <p>Good question! I think I will never know the answer. What I know is that I express myself through photography, I love making graphic and UI/UX designs for other people and playing my harmonica from time to time.</p>
-        </div>
-        <div>
-          <Link href="/photography">PHOTOGRAPHY</Link>
-          <Link href="/design">DESIGN</Link>
-          <Link href="/aboutMe">ABOUT ME</Link>
+
+
+        <div className={styles.navigationHome}>
+          <Link className={styles.navLink} href="/photography">PHOTOGRAPHY</Link>
+          <Link className={styles.navLink} href="/design">DESIGN</Link>
+          <Link className={styles.navLink} href="/aboutMe">ABOUT ME</Link>
         </div>
       </main>
     </div>
