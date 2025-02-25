@@ -25,18 +25,26 @@ export default function Home() {
           </div>
 
         </div>
-        <h1 className={styles.title}>
-          KONSTANTINOS KOTORENIS
-        </h1>
+        <div className={styles.titleContainer}>
+          <h1 className={styles.title}>
+            KONSTANTINOS
+          </h1>
+          <h1 className={styles.title}>
+            KOTORENIS
+          </h1>
+        </div>
         <h2 className={styles.subtitle}>
-          or just kostaskoto
+          OR JUST KOSTASKOTO
         </h2>
-        <h3> Who Am I?</h3>
-        <p>Good question! I think I will never know the answer. What I know is that I express myself through photography, I love making graphic and UI/UX designs for other people and playing my harmonica from time to time.</p>
-        <Link href="/aboutMe">About Me</Link>
-        <Link href="/design">Design</Link>
-        <Link href="/photography">Photography</Link>
-
+        <div>
+          <h3> Who Am I?</h3>
+          <p>Good question! I think I will never know the answer. What I know is that I express myself through photography, I love making graphic and UI/UX designs for other people and playing my harmonica from time to time.</p>
+        </div>
+        <div>
+          <Link href="/photography">PHOTOGRAPHY</Link>
+          <Link href="/design">DESIGN</Link>
+          <Link href="/aboutMe">ABOUT ME</Link>
+        </div>
       </main>
     </div>
   );
