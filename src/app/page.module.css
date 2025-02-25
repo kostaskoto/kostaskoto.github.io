@@ -22,7 +22,7 @@
 }
 
 .title {
-  font-size: 6rem;
+  font-size: 5.5rem;
   font-weight: 700;
   letter-spacing: 0.2em;
 }
@@ -30,9 +30,9 @@
 .subtitle {
   font-size: 2.56rem;
   font-weight: 200;
-  position: relative;
-  bottom: 50%;
-  right: 0;
+  position: absolute;
+  top: 50%;
+  left: 15%;
   text-wrap: nowrap;
   width: fit-content;
 }
@@ -49,7 +49,6 @@
   flex-direction: row;
   align-items: end;
   justify-content: center;
-  gap: 0;
 }
 
 .profileRelative {
@@ -102,6 +101,17 @@
   right: 10%;
 }
 
+.aboutMePlaceholder {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  bottom: 10%;
+  left: 10%;
+  opacity: 0;
+}
+
 .navigationHome {
   position: absolute;
   bottom: 6%;
@@ -112,7 +122,7 @@
 }
 
 .navLink {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 300;
   letter-spacing: 0.2em;
 }

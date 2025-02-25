@@ -7,9 +7,10 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <div className={styles.profile}>
-          <h2 className={styles.subtitle}>
-            OR JUST KOSTASKOTO
-          </h2>
+          <div className={styles.aboutMePlaceholder}>
+            <h3> WHO AM I?</h3>
+            <p>Good question! I think I will never know the answer. What I know is that I express myself through photography, I love making graphic and UI/UX designs for other people and playing my harmonica from time to time.</p>
+          </div>
           <div className={styles.profileRelative}>
             <Image
               className={styles.profilePicture}
@@ -20,21 +21,20 @@ export default function Home() {
               priority
               unoptimized
             />
-
             <div className={styles.personalInfo}>
               <p>BORN IN 1998</p>
               <p>PHOTOGRAPHING SINCE 2014</p>
               <p>DESIGNING SINCE 2019</p>
             </div>
-
           </div>
-
           <div className={styles.aboutMe}>
             <h3> WHO AM I?</h3>
             <p>Good question! I think I will never know the answer. What I know is that I express myself through photography, I love making graphic and UI/UX designs for other people and playing my harmonica from time to time.</p>
           </div>
-
         </div>
+        <h2 className={styles.subtitle}>
+          OR JUST KOSTASKOTO
+        </h2>
         <div className={styles.titleContainer}>
           <h1 className={styles.title}>
             KONSTANTINOS
