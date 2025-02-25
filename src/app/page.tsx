@@ -8,11 +8,12 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           className={styles.profilePicture}
-          src="/images/kostaskotoProfile.jpg"
+          src="https://kostaskoto.github.io/kostaskoto/images/kostaskotoProfile.jpg"
           alt="profile picture"
           width={1250}
           height={1664}
           priority
+          unoptimized
         />
         <h1 className={styles.title}>
           Konstantinos Kotorenis
