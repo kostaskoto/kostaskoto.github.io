@@ -18,8 +18,7 @@ export default function Home() {
               alt="profile picture"
               width={1250}
               height={1664}
-              priority
-              unoptimized
+              loading="lazy"
             />
             <div className='personalInfo'>
               <p>BORN IN 1998</p>
