@@ -6,8 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: isProd ? '/kostaskoto/' : '',
-  basePath: isProd ? '/kostaskoto' : '',
+  assetPrefix: isProd ? '/kostaskoto.github.io/' : '',
+  basePath: isProd ? '/kostaskoto.github.io' : '',
   output: 'export'
 };
 

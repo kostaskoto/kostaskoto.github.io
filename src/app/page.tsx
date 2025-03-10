@@ -14,7 +14,7 @@ export default function Home() {
           <div className='profileRelative'>
             <Image
               className='profilePicture'
-              src="https://kostaskoto.github.io/kostaskoto/images/kostaskotoProfile.jpg"
+              src="https://kostaskoto.github.io/images/kostaskotoProfile.jpg"
               alt="profile picture"
               width={1250}
               height={1664}

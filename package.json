@@ -1,7 +1,7 @@
 {
   "name": "kostaskoto",
   "version": "0.1.0",
-  "homepage": "https://kostaskoto.github.io/kostaskoto",
+  "homepage": "https://kostaskoto.github.io",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
