@@ -33,7 +33,7 @@ jobs:
         run: npm run build
         env:
           NEXT_PUBLIC_OUTPUT_MODE: export
-          NEXT_PUBLIC_BASE_PATH: /websitekostaskoto
+          NEXT_PUBLIC_BASE_PATH: ""
           NEXT_PUBLIC_DEFAULT_LOCALE: en
 
       - name: Setup Pages
