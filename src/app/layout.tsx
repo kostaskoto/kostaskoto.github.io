@@ -1,27 +1,25 @@
-import type { Metadata } from "next";
-import { Lato } from "next/font/google";
-import "./globals.css";
 
-const lato = Lato({
-  subsets: ["latin"],
-  weight: ["100", "300", "400", "700", "900"]
+import type { Metadata } from 'next';
+import { Manrope } from 'next/font/google';
+import './globalStyle.scss';
+import { ReactNode } from 'react';
+
+const manrope = Manrope({
+  variable: '--font-manrope',
+  subsets: ['latin', 'greek']
 });
 
 export const metadata: Metadata = {
-  title: "Konstantinos Kotorenis",
-  description: "Portfolio Website",
+  title: 'Konstantinos Kotorenis',
+  description: 'Personal website of Konstantinos Kotorenis'
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="en">
-      <body className={lato.className}>
-        {children}
-      </body>
+    <body suppressHydrationWarning className={`${manrope.variable}`}>
+          {children}
+    </body>
     </html>
   );
 }

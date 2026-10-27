@@ -1,0 +1,95 @@
+{
+    "title": "Graphic Design",
+    "brand-images": "Brand Images",
+    "ui-ux": "Human Computer Interaction",
+    "otherDesigns": "Other Designs",
+    "n+1Click": {
+        "title": "N+1 Click 2024",
+        "description": "Photography Festival",
+        "subtitle-1": "Patras December 2024",
+        "subtitle-2": "Skagiopoulio Fundation",
+        "poster-title": "Activities Posters",
+        "highlight": "This was the first attemp of the Photography Team of ASTO-Epikoinonoume to create a festival of such a scale. It hosted 12 exhibitions and 5 seminars/presentations. It lasted from the 29th of November until the 8th of December 2024.",
+        "drawing-title": "Drawings",
+        "calendar-title": "Calendar",
+        "photo-title": "Festival's Photographs"
+    },
+    "eskiBrandImage": {
+        "title": "ESKI",
+        "description": "Ski Rental Startup",
+        "subtitle-1": "Brand Image created on October 2024",
+        "subtitle-2": "ESKI Ski Rental Startup",
+        "poster-title": "Brand Image",
+        "drawing-title": "Bussines Card",
+        "highlight": "The focus of the startup ESKI was to create a network of ski rental suppliers where the costumers could book ski equipment online before they go to the ski resort"
+    },
+    "lifeChain": {
+        "title": "Life Chain",
+        "description": "University Safety Startup",
+        "subtitle-1": "Brand Image created on August 2023",
+        "subtitle-2": "Life Chain Emergency Help Startup",
+        "poster-title": "Brand Image",
+        "highlight": "Life Chain gave you the ability to call for emergency help inside the university campus"
+    },
+    "eski": {
+        "title": "ESKI Website",
+        "description": "Ski Rental Startup",
+        "landing": "Landing Page",
+        "website": "Customer Website",
+        "pms": "Product Managment System"
+    },
+    "domo": {
+        "title": "Domo",
+        "description": "University IOT Project",
+        "subtitle-1": "December 2023",
+        "subtitle-2": "University IOT Project",
+        "drawing-title": "Architecture",
+        "poster-title": "App UI"
+    },
+    "fidemBank": {
+        "title": "Fidem Bank",
+        "description": "University HCI Project",
+        "subtitle-1": "December 2021",
+        "subtitle-2": "University HCI Project",
+        "drawing-title": "Fidem Bank UI/UX"
+    },
+    "astoWebsite2021": {
+        "title": "ASTO Website",
+        "description": "UI Design 2021",
+        "subtitle-1": "Designed on 2021",
+        "subtitle-2": "UI Design"
+    },
+    "chiPoster2026": {
+        "title": "CHI 2026 Poster",
+        "description": "Barcelona, Spain",
+        "subtitle-1": "April 2026, Barcelona, Spain",
+        "subtitle-2": "Here you can find more"
+    },
+    "astoCalendar2026": {
+        "title": "ASTO Calendar 2026",
+        "description": "Yearly Calendar by the Photography Team"
+    },
+    "ieee": {
+        "title": "IEEE SB UPatras",
+        "description": "Designs created between 2023-2024",
+        "subtitle-2": "Designs created between 2023-2024",
+        "drawing-title": "Designs"
+    },
+    "eestecOther": {
+        "title": "EESTEC Designs",
+        "description": "Various Designs between 2020-2022",
+        "subtitle-2": "Designs created between 2020-2022",
+        "badges": "Badges Design",
+        "tShirt": "T-Shirts Design",
+        "certificate": "Certificate Design",
+        "events": "Event Planning Design"
+    },
+    "eestecYearBook": {
+        "title": "EESTEC Year Book",
+        "description": "Book for remembering Teams, Projects and Branches"
+    },
+    "designSprint2021": {
+        "title": "Design Sprint 2021",
+        "description": "Promotional Material"
+    }
+}

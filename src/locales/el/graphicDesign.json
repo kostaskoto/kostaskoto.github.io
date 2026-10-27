@@ -1,0 +1,95 @@
+{
+    "title": "Γραφιστικη",
+    "brand-images": "Brand Images",
+    "ui-ux": "Αλληλεπίδραση Ανθρώπου Υπολογιστή",
+    "otherDesigns": "Αλλα Σχεδια",
+    "n+1Click": {
+        "title": "Ν+1 Κλικ 2024",
+        "description": "Φωτογραφικό Φεστιβάλ",
+        "subtitle-1": "Πάτρα Δεκέμβριος 2024",
+        "subtitle-2": "Σκαγιοπούλειο Ίδρυμα",
+        "poster-title": "Αφισες Δραστηριοτητων",
+        "highlight": "Αυτή ηταν η πρώτη προσπάθεια της Ομάδας Φωτογραφίας του ΑΣΤΟ-Επικοινωνούμε να οργανώσει ένα φεστιβάλ τέτοιου βελινεκούς. Απαρτιζώταν από 12 εκθέσεις και είχε 5 σεμινάρια/παρουσιάσεις. Διήρκησε από τις 29 Νοεμβρίου μέχρι τις 8 Δεκεμβρίου 2024.",
+        "drawing-title": "Κατοψεις",
+        "calendar-title": "Ημερολογιο",
+        "photo-title": "Φωτογραφιες του Φεστιβαλ"
+    },
+    "eskiBrandImage": {
+        "title": "ESKI",
+        "description": "Σταρταπ Ενοικίασης Εξοπλισμού Σκι",
+        "subtitle-1": "To Brand Image Δημιουργήθηκε τον Οκτώβριο του 2024",
+        "subtitle-2": "ESKI Σταρταπ Ενοικίασης Σκι",
+        "poster-title": "Brand Image",
+        "drawing-title": "Εταιρικη Καρτα",
+        "highlight": "Η στάρταπ ESKI εστίασε στο να δημιουργήσει ένα δίκτυο προμηθευτών εξοπλισμού σκι όπου οι πελάτες τους θα μπορούσαν να νοικιάσουν τον εξοπλισμό τους online, πριν πάνε στο χιονοδρομικό κέντρο"
+    },
+    "lifeChain": {
+        "title": "Life Chain",
+        "description": "Σταρταπ Ασφάλειας στο Πανεπιστήμιο",
+        "subtitle-1": "Το Brand Image δημιουργήθηκε τον Αύγουστο του 2023",
+        "subtitle-2": "Life Chain Σταρταπ για Άμεση Βοήθεια",
+        "poster-title": "Brand Image",
+        "highlight": "Η Life Chain παρείχε τη δυνατότητα να καλέσει κάποιος εντός πανεπιστημίου για άμεση βοήθεια."
+    },
+    "eski": {
+        "title": "ESKI Ιστοσελίδα",
+        "description": "Σταρταπ Ενοικίασης Εξοπλισμού Σκι",
+        "landing": "Landing Page",
+        "website": "Ιστοσελιδα Πελατων",
+        "pms": "Συστημα Διαχειρισης Προϊοντων"
+    },
+    "domo": {
+        "title": "Domo",
+        "description": "Εργασία του Πανεπιστημίου για ΙΟΤ",
+        "subtitle-1": "Δεκέμβριος 2023",
+        "subtitle-2": "Εργασία του Πανεπιστημίου για ΙΟΤ",
+        "drawing-title": "Αρχιτεκτονικη",
+        "poster-title": "UI Εφαρμογης"
+    },
+    "fidemBank": {
+        "title": "Fidem Bank",
+        "description": "Εργασία Πανεπιστημίου για HCI",
+        "subtitle-1": "Δεκέμβριος 2021",
+        "subtitle-2": "Εργασία Πανεπιστημίου για HCI",
+        "drawing-title": "Fidem Bank UI/UX"
+    },
+    "astoWebsite2021": {
+        "title": "Ιστοσελίδα ΑΣΤΟ-Επικοινωνούμε",
+        "description": "Σχέδιο UI 2021",
+        "subtitle-1": "Σχεδιάστηκε το 2021",
+        "subtitle-2": "UI Σχέδιο"
+    },
+    "chiPoster2026": {
+        "title": "CHI 2026 Poster",
+        "description": "Βαρκελώνη, Ισπανία",
+        "subtitle-1": "Απρίλιος 2026, Βαρκελώνη, Ισπανία",
+        "subtitle-2": "Μάθε εδώ περισσότερα"
+    },
+    "astoCalendar2026": {
+        "title": "ΑΣΤΟ-Επικοινωνούμε Ημερολόγιο 2026",
+        "description": "Ετήσιο Ημερολόγιο της Φωτογραφικής Ομάδας"
+    },
+    "ieee": {
+        "title": "IEEE SB UPatras",
+        "description": "Σχέδια δημιουργημένα μεταξύ 2023-2024",
+        "subtitle-2": "Σχέδια δημιουργημένα μεταξύ 2023-2024",
+        "drawing-title": "Σχεδια"
+    },
+    "eestecOther": {
+        "title": "Σχέδια για την EESTEC",
+        "description": "Δημιουργήθηκαν μεταξύ 2020-2022",
+        "subtitle-2": "Τα σχέδια δημιουργήθηκαν μεταξύ 2020-2022",
+        "badges": "Καρτελακια",
+        "tShirt": "Μπλουζακια",
+        "certificate": "Πιστοποιητικα",
+        "events": "Ανακοινωση Ταξιδιων"
+    },
+    "eestecYearBook": {
+        "title": "EESTEC Year Book",
+        "description": "Αναμνηστικό των Teams, Projects and Branches"
+    },
+    "designSprint2021": {
+        "title": "Design Sprint 2021",
+        "description": "Διαφημιστικό Υλικό"
+    }
+}

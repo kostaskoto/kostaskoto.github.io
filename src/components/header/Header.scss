@@ -1,0 +1,210 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    min-width: 310px;
+    gap: 1.5rem;
+    padding: 2rem 4rem;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    transition: background-color 0.2s ease-in-out;
+    filter:
+        drop-shadow(0 0 20px rgba(0, 0, 0, 1));
+
+    button {
+        z-index: 10;
+    }
+
+    .gradient-container {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        width: 80rem;
+        height: 6rem;
+        transform: translate(0%, -0%);
+        overflow: hidden;
+        z-index: -1;
+
+        .gradient {
+            position: absolute;
+            top: 0%;
+            right: 0%;
+            width: 100%;
+            height: 200%;
+            transform: translate(40%, -50%);
+            overflow: visible;
+            background: radial-gradient(rgba(0, 0, 0, 1) 30%,
+                    rgba(0, 0, 0, 0) 70%);
+            z-index: -1;
+        }
+    }
+
+    .menu-icon-button {
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .close-menu-button {
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 1.5rem;
+        overflow: hidden;
+        width: 100%;
+        z-index: 2000;
+
+        .header-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-wrap: nowrap;
+            letter-spacing: 0.05em;
+
+            .header-button-text {
+                color: white;
+            }
+        }
+    }
+
+    .header-button-text:hover {
+        text-decoration: underline;
+    }
+
+    .header-button:focus-visible {
+        outline: none;
+
+        .header-button-text {
+            text-decoration: underline;
+        }
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+    .header {
+        justify-content: space-between;
+
+        .gradient-container {
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            transform: translate(-0%, -0%);
+
+            .gradient {
+                top: 0%;
+                right: 0%;
+                width: 100%;
+                height: 100%;
+                transform: translate(0%, -0%);
+                background: linear-gradient(rgba(0, 0, 0, 1) 0%,
+                        rgba(0, 0, 0, 0) 90%);
+            }
+        }
+
+        .menu {
+            justify-content: start;
+
+        }
+
+    }
+
+}
+
+@media (max-width: 625px) {
+    .open {
+        background-color: black;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .closed {
+        background-color: transparent;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .header {
+        justify-content: end;
+        padding: 2rem 2rem;
+
+        .gradient-container {
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            transform: translate(-0%, -0%);
+
+            .gradient {
+                top: 0%;
+                right: 0%;
+                width: 100%;
+                height: 100%;
+                transform: translate(0%, -0%);
+                background: linear-gradient(rgba(0, 0, 0, 1) 0%,
+                        rgba(0, 0, 0, 0) 90%);
+            }
+        }
+
+
+        .open {
+            display: block;
+        }
+
+        .menu-icon-button {
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .close-menu-button {
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .menuClosed {
+            display: none !important;
+        }
+
+        .menu {
+            position: absolute;
+            display: flex;
+            top: 100%;
+            right: 0;
+            background-color: black;
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            gap: 2rem;
+            padding: 0 4rem 3rem 4rem;
+            width: 100%;
+            height: calc(100vh - 5.8rem);
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out, display 0.0s;
+
+            .header-button {
+                display: none;
+            }
+        }
+
+        .menu.open {
+            display: flex;
+            opacity: 1;
+
+            .header-button {
+                display: block;
+            }
+        }
+    }
+}

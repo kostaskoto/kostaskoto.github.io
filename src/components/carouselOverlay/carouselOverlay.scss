@@ -1,0 +1,100 @@
+.carousel-background {
+    background: #000000;
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+    .carousel-container {
+        position: relative;
+        padding: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        .close-button {
+            background: none;
+            color: white;
+            border: none;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 20000;
+
+            .CloseIcon {
+                filter: drop-shadow(0 0 9px #000000);
+            }
+
+            :hover {
+                filter: drop-shadow(0 0 9px #000000);
+                cursor: pointer;
+            }
+        }
+
+        .carousel {
+            height: fit-content;
+            width: 100%;
+
+            .carousel-image-conteiner {
+                height: 97vh;
+                padding: 1rem 0 3.5rem 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .carousel-image {
+                    width: auto;
+                    height: auto;
+                    max-width: 80vw;
+                    max-height: 90vh;
+                    border: 0.5rem solid white;
+                    background: white;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .carousel-background {
+
+        .carousel-container {
+            padding: 2%;
+
+            .carousel {
+                .carousel-image-conteiner {
+
+                    .carousel-image {
+                        max-width: 85vw;
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+@media (max-width: 625px) {
+    .carousel-background {
+
+        .carousel-container {
+            padding: 0%;
+
+            .carousel {
+                .carousel-image-conteiner {
+
+                    .carousel-image {
+                        max-width: 90vw;
+                    }
+                }
+            }
+        }
+    }
+}
